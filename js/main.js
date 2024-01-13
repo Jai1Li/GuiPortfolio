@@ -53,10 +53,10 @@ projects.addEventListener('click', () => {
     //modal: true,
     width: '400px',
     height: '400px',
-    top: 50,
+    top: 250,
     right: 50,
     bottom: 50,
-    left: 50,
+    left: 450,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground('#00aa00')
@@ -72,10 +72,10 @@ education.addEventListener('click', () => {
     title: 'Education',
     width: '400px',
     height: '400px',
-    top: 50,
+    top: 350,
     right: 50,
     bottom: 50,
-    left: 50,
+    left: 650,
     mount: educationContent,
     onfocus: function () {
       this.setBackground('#00aa00')
